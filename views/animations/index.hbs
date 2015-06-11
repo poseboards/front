@@ -18,11 +18,11 @@
             </tr>
           </thead>
           <tbody>
-            {{#each uploads}}
+            {{#each files}}
             <tr>
-              <td><a href = "/gen">{{this.title}}</a></td>
-              <td><a href = "/animations/{{_id}}"><img src="../{{this.filename}}"></a></td>
-              <td><a href = "#">@jdoubleua</a></td>
+              <td><a href = "/animations/{{ this.id }}">{{this.title}}</a></td>
+              <td><a href = "/animations/{{ this.id }}"><img src="../{{ this.filename }}"></a></td>
+              <td><a href = "/users/{{ this.user }}">{{this.user}}</a></td>
               <td>301+</td>
             </tr>
             {{/each}}
