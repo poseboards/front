@@ -1,7 +1,38 @@
 .animations {
+  background-color: $primarygrey;
   .sidebar-left,
   .sidebar-right,
   .animations-container {
     background-color: $white;
+  }
+  .sidebar-left {
+    text-align: right;
+  }
+  .animations-container {
+    border-top: 5px solid $primarygrey;
+  }
+  .sidebar-right {
+    border-top: 10px solid $primarygrey;
+    border-left: 10px solid $primarygrey;
+  }
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  .file-item {
+    border-bottom: 1px solid $primarygrey;
+    .file-title {
+      height: 50px;
+    }
+    .file-image {
+      height: 100px;
+      width: 100px;
+      background-size: 100%;
+    }
+    .file-meta {
+      height: 50px;
+    }
   }
 }
