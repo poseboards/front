@@ -364,35 +364,38 @@ ol.added-results li {
 /* line 11, scss/partials/_animations.scss */
 .animations .animations-container {
   border-top: 5px solid #c9c8c7;
+  padding: 0;
 }
-/* line 14, scss/partials/_animations.scss */
+/* line 15, scss/partials/_animations.scss */
 .animations .sidebar-right {
   border-top: 10px solid #c9c8c7;
   border-left: 10px solid #c9c8c7;
 }
-/* line 18, scss/partials/_animations.scss */
+/* line 19, scss/partials/_animations.scss */
 .animations ul {
   padding-left: 0;
 }
-/* line 21, scss/partials/_animations.scss */
+/* line 22, scss/partials/_animations.scss */
 .animations li {
   list-style-type: none;
 }
-/* line 24, scss/partials/_animations.scss */
+/* line 25, scss/partials/_animations.scss */
 .animations .file-item {
   border-bottom: 1px solid #c9c8c7;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-/* line 26, scss/partials/_animations.scss */
+/* line 29, scss/partials/_animations.scss */
 .animations .file-item .file-title {
   height: 50px;
 }
-/* line 29, scss/partials/_animations.scss */
+/* line 32, scss/partials/_animations.scss */
 .animations .file-item .file-image {
   height: 100px;
   width: 100px;
   background-size: 100%;
 }
-/* line 34, scss/partials/_animations.scss */
+/* line 37, scss/partials/_animations.scss */
 .animations .file-item .file-meta {
   height: 50px;
 }

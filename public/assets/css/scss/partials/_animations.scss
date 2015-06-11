@@ -10,6 +10,7 @@
   }
   .animations-container {
     border-top: 5px solid $primarygrey;
+    padding: 0;
   }
   .sidebar-right {
     border-top: 10px solid $primarygrey;
@@ -23,6 +24,8 @@
   }
   .file-item {
     border-bottom: 1px solid $primarygrey;
+    padding-left: 15px;
+    padding-right: 15px;
     .file-title {
       height: 50px;
     }
