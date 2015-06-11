@@ -1,11 +1,16 @@
 /* line 33, scss/partials/_globals.scss */
+p {
+  font-family: Josefin Sans;
+}
+
+/* line 37, scss/partials/_globals.scss */
 .btn-primarylight {
   background: #00b2e2;
   color: white;
   height: 30px;
   width: 100px;
 }
-/* line 38, scss/partials/_globals.scss */
+/* line 42, scss/partials/_globals.scss */
 .btn-primarylight:hover {
   background: #15365d;
   color: white;

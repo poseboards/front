@@ -30,6 +30,10 @@ $dashboardmedgrey: #bbbdbf;
 $dashboarddarkgrey: #6c6d6f;
 $white: #fff;
 
+p {
+  font-family: $primarysans;
+}
+
 .btn-primarylight {
 	background: $primarylight;
 	color: $white;
