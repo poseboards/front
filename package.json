@@ -7,7 +7,22 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": 
+  { "name" : "Jeremy Alexander"
+  , "url" : "http://github.com/jdoubleua"
+  },
+  "author": 
+  { "name" : "Evan Turner"
+  , "url" : "http://github.com/evturn"
+  },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/poseboards/front"
+  },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/evturn/poseboards-fe"
+  },
   "license": "ISC",
   "dependencies": {
     "express": "^4.12.3",
