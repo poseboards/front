@@ -347,6 +347,13 @@ ol.added-results li {
   cursor: pointer;
 }
 
+/* line 4, scss/partials/_animations.scss */
+.animations .sidebar-left,
+.animations .sidebar-right,
+.animations .animations-container {
+  background-color: white;
+}
+
 /* line 1, scss/partials/_users.scss */
 .container-users {
   margin-top: 70px;
