@@ -1,54 +1,53 @@
 <div class="conatiner-fluid animations">
-    <div class="row">
-      <div class="col-lg-12 col-xx-12">
-         <div class="row">
-          <div class="col-lg-2 col-xs-2 sidebar-left">
-            <ul>
-              <li>
-                <p>Featured</p>
-              </li>
-              <li>
-                <p>Browse</p>
-              </li>
-              <li>
-                <p>Users</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-6 col-lg-offset-1 col-xs-6 col-lg-offset-1 animations-container">
-            <ul>
-            {{#each files}}
-              <li>
-                <div class="file-item">
-                  <div class="file-title">
-                    <h4><a href = "/animations/{{ this.id }}">{{this.title}}</a></h4>
-                  </div>
-                  <div class="file-image" style="background-image: url('{{ this.filename }}');">
-                    <a href = "/animations/{{ this.id }}"></a>
-                  </div>
-                  <div file-meta>
-                    <p><a href = "/users/{{ this.user }}">@{{this.user}}</a></p>
-                  </div>
+  <div class="row">
+    <div class="col-lg-12 col-xx-12">
+       <div class="row">
+        <div class="col-lg-2 col-xs-2 sidebar-left">
+          <ul>
+            <li>
+              <p>Featured</p>
+            </li>
+            <li>
+              <p>Browse</p>
+            </li>
+            <li>
+              <p>Users</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 col-lg-offset-1 col-xs-6 col-lg-offset-1 animations-container">
+          <ul>
+          {{#each files}}
+            <li>
+              <div class="file-item">
+                <div class="file-title">
+                  <h4><a href = "/animations/{{ this.id }}">{{this.title}}</a></h4>
                 </div>
-              </li>
-            {{/each}}
-            </ul>
-          </div>
-          <div class="col-lg-3 col-xs-3 sidebar-right">
-            <ul>
-              <li>
-                <p>Featured</p>
-              </li>
-              <li>
-                <p>Browse</p>
-              </li>
-              <li>
-                <p>Users</p>
-              </li>
-            </ul>
-          </div>
+                <div class="file-image" style="background-image: url('{{ this.filename }}');">
+                  <a href="/animations/{{ this.id }}"></a>
+                </div>
+                <div file-meta>
+                  <p class="meta"><a href="/users/{{ this.user }}">@{{this.user}}</a></p>
+                </div>
+              </div>
+            </li>
+          {{/each}}
+          </ul>
+        </div>
+        <div class="col-lg-3 col-xs-3 sidebar-right">
+          <ul>
+            <li>
+              <p>Featured</p>
+            </li>
+            <li>
+              <p>Browse</p>
+            </li>
+            <li>
+              <p>Users</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-  
+  </div>
 </div>

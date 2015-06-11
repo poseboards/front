@@ -1,16 +1,22 @@
-/* line 33, scss/partials/_globals.scss */
-p {
-  font-family: Josefin Sans;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+/* line 40, scss/partials/_globals.scss */
+.meta,
+p.meta,
+p.meta a {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #c9c8c7;
+  line-height: 1.4em;
 }
 
-/* line 37, scss/partials/_globals.scss */
+/* line 46, scss/partials/_globals.scss */
 .btn-primarylight {
   background: #00b2e2;
   color: white;
   height: 30px;
   width: 100px;
 }
-/* line 42, scss/partials/_globals.scss */
+/* line 51, scss/partials/_globals.scss */
 .btn-primarylight:hover {
   background: #15365d;
   color: white;
@@ -19,7 +25,7 @@ p {
 /* line 1, scss/partials/_base.scss */
 body {
   background-color: lightgrey;
-  font-family: Josefin Sans;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* line 6, scss/partials/_base.scss */
@@ -141,74 +147,74 @@ form label {
     width: 100%;
   }
 }
-/* line 1, scss/partials/_page.scss */
+/* line 4, scss/partials/_page.scss */
 h1 {
   font-size: 48px;
   color: white;
 }
 
-/* line 2, scss/partials/_page.scss */
+/* line 5, scss/partials/_page.scss */
 h2 {
   font-size: 32px;
 }
 
-/* line 3, scss/partials/_page.scss */
+/* line 6, scss/partials/_page.scss */
 h3 {
   font-size: 27px;
 }
 
-/* line 4, scss/partials/_page.scss */
+/* line 7, scss/partials/_page.scss */
 h4 {
   font-size: 22px;
 }
 
-/* line 5, scss/partials/_page.scss */
+/* line 8, scss/partials/_page.scss */
 h5 {
   font-size: 18px;
 }
 
-/* line 6, scss/partials/_page.scss */
+/* line 9, scss/partials/_page.scss */
 h6 {
   font-size: 14px;
 }
 
-/* line 8, scss/partials/_page.scss */
+/* line 11, scss/partials/_page.scss */
 .text-layer {
   padding-top: 180px;
 }
 
-/* line 12, scss/partials/_page.scss */
+/* line 15, scss/partials/_page.scss */
 .section-title {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 17, scss/partials/_page.scss */
+/* line 20, scss/partials/_page.scss */
 .navbar-inverse {
   background-color: #231f20;
 }
-/* line 19, scss/partials/_page.scss */
+/* line 22, scss/partials/_page.scss */
 .navbar-inverse .navbar-brand {
   color: white;
 }
-/* line 21, scss/partials/_page.scss */
+/* line 24, scss/partials/_page.scss */
 .navbar-inverse .navbar-brand:hover {
   color: #99ffcc;
 }
-/* line 24, scss/partials/_page.scss */
+/* line 27, scss/partials/_page.scss */
 .navbar-inverse .navbar-brand .navbar-img {
   width: 25px;
 }
-/* line 29, scss/partials/_page.scss */
+/* line 32, scss/partials/_page.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: white;
 }
-/* line 31, scss/partials/_page.scss */
+/* line 34, scss/partials/_page.scss */
 .navbar-inverse .navbar-nav > li > a:hover {
   color: #99ffcc;
 }
 
-/* line 38, scss/partials/_page.scss */
+/* line 41, scss/partials/_page.scss */
 .tab-title {
   font-weight: 500;
   line-height: 1.1;
@@ -216,7 +222,7 @@ h6 {
   text-align: center;
 }
 
-/* line 45, scss/partials/_page.scss */
+/* line 48, scss/partials/_page.scss */
 .app-title {
   font-weight: 100;
   color: white;
@@ -224,34 +230,34 @@ h6 {
   margin-top: 280px;
 }
 
-/* line 52, scss/partials/_page.scss */
+/* line 55, scss/partials/_page.scss */
 .yelp {
   text-align: center;
 }
 
-/* line 56, scss/partials/_page.scss */
+/* line 59, scss/partials/_page.scss */
 .list-group-row {
   overflow: auto;
   overflow-y: hidden;
   white-space: nowrap;
 }
-/* line 60, scss/partials/_page.scss */
+/* line 63, scss/partials/_page.scss */
 .list-group-row .list-group {
   padding: 0;
 }
-/* line 62, scss/partials/_page.scss */
+/* line 65, scss/partials/_page.scss */
 .list-group-row .list-group .list-group-item {
   width: 225px;
   position: relative;
 }
-/* line 65, scss/partials/_page.scss */
+/* line 68, scss/partials/_page.scss */
 .list-group-row .list-group .list-group-item .list-item-option {
   position: absolute;
   top: 35px;
   right: 7px;
 }
 
-/* line 74, scss/partials/_page.scss */
+/* line 77, scss/partials/_page.scss */
 ol.added-results li {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -396,8 +402,8 @@ ol.added-results li {
 }
 /* line 32, scss/partials/_animations.scss */
 .animations .file-item .file-image {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   background-size: 100%;
 }
 /* line 37, scss/partials/_animations.scss */

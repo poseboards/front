@@ -1,10 +1,15 @@
-$primarysans: Josefin Sans;
+$primarysans: 'Open Sans', sans-serif;
+$primaryserif: 'PT Sans Narrow', sans-serif;
 $primarydark: #15365d;
 $primarydarkhover: #174e7a;
 $primarylight: #00b2e2;
 $primarylighthover: #00cfff;
+
 $primarygrey: #c9c8c7;
 $primarygreyhover: #dddddd;
+$primarygreylight: #f8f8f8;
+$primarygreymed: #bbbdbf;
+$primarygreydark: #6c6d6f;
 
 $mint: #99FFCC;
 $pink: #FFC0CB;
@@ -30,8 +35,12 @@ $dashboardmedgrey: #bbbdbf;
 $dashboarddarkgrey: #6c6d6f;
 $white: #fff;
 
-p {
-  font-family: $primarysans;
+.meta,
+p.meta,
+p.meta a {
+  font-family: $primaryserif;
+  color: $primarygrey;
+  line-height: 1.4em;
 }
 
 .btn-primarylight {
