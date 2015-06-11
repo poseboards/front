@@ -472,3 +472,8 @@ nav.navbar.navbar-default .img-responsive {
 .container-users .container-user-results .user-result-item .user-result-link {
   text-decoration: none;
 }
+
+#boardTextStyle{
+  color: red;
+  display: inline;
+}

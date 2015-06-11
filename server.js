@@ -1,6 +1,6 @@
 var express = require('express');
-var logger = require('morgan');
-var hbs = require('./config/handlebars');
+var logger  = require('morgan');
+var hbs     = require('./config/handlebars');
 var usersRouter = require('./routes/users-router');
 var animationsRouter = require('./routes/animations-router');
 
