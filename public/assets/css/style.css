@@ -371,44 +371,72 @@ ol.added-results li {
 /* line 8, scss/partials/_animations.scss */
 .animations .sidebar-left {
   text-align: right;
+  height: 100vh;
 }
 /* line 11, scss/partials/_animations.scss */
+.animations .sidebar-left .fa {
+  font-size: 2em;
+}
+/* line 15, scss/partials/_animations.scss */
 .animations .animations-container {
   border-top: 5px solid #c9c8c7;
   padding: 0;
 }
-/* line 15, scss/partials/_animations.scss */
+/* line 19, scss/partials/_animations.scss */
 .animations .sidebar-right {
   border-top: 10px solid #c9c8c7;
   border-left: 10px solid #c9c8c7;
 }
-/* line 19, scss/partials/_animations.scss */
+/* line 23, scss/partials/_animations.scss */
 .animations ul {
   padding-left: 0;
 }
-/* line 22, scss/partials/_animations.scss */
+/* line 26, scss/partials/_animations.scss */
 .animations li {
   list-style-type: none;
 }
-/* line 25, scss/partials/_animations.scss */
+/* line 29, scss/partials/_animations.scss */
 .animations .file-item {
   border-bottom: 1px solid #c9c8c7;
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 29, scss/partials/_animations.scss */
+/* line 33, scss/partials/_animations.scss */
 .animations .file-item .file-title {
   height: 50px;
 }
-/* line 32, scss/partials/_animations.scss */
+/* line 36, scss/partials/_animations.scss */
 .animations .file-item .file-image {
   height: 150px;
   width: 150px;
   background-size: 100%;
 }
-/* line 37, scss/partials/_animations.scss */
+/* line 41, scss/partials/_animations.scss */
 .animations .file-item .file-meta {
   height: 50px;
+}
+
+/* line 1, scss/partials/_navbar.scss */
+nav.navbar.navbar-default {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+  background-color: white;
+}
+/* line 6, scss/partials/_navbar.scss */
+nav.navbar.navbar-default ul {
+  text-align: left;
+}
+/* line 8, scss/partials/_navbar.scss */
+nav.navbar.navbar-default ul li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 14, scss/partials/_navbar.scss */
+nav.navbar.navbar-default .img-responsive {
+  height: 30px;
+  margin-top: -5px;
 }
 
 /* line 1, scss/partials/_users.scss */

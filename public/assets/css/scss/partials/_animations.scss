@@ -7,6 +7,10 @@
   }
   .sidebar-left {
     text-align: right;
+    height: 100vh;
+    .fa {
+      font-size: 2em;
+    }
   }
   .animations-container {
     border-top: 5px solid $primarygrey;
