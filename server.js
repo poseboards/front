@@ -6,6 +6,7 @@ var animationsRouter = require('./routes/animations-router');
 
 var root = __dirname + '/public';
 var lib = __dirname + '/lib';
+var files = __dirname + '/files';
 
 
 var app = express();
@@ -19,6 +20,7 @@ app.set('views', 'views');
 app.engine('hbs', hbs.engine);
 app.use(express.static(root));
 app.use(express.static(lib));
+app.use(express.static(files));
 app.use(logger('dev'));
 
 var port = process.env.PORT || 3000;
