@@ -1,10 +1,15 @@
 var express = require('express');
 var logger = require('morgan');
 var hbs = require('./config/handlebars');
+var usersRouter = require('./routes/users-router');
+
 var root = __dirname + '/public';
 var lib = __dirname + '/lib';
 
+
 var app = express();
+
+app.use('/users', usersRouter);
 
 
 app.set('view engine', 'hbs');
