@@ -1024,6 +1024,11 @@ nav.navbar.navbar-default .img-responsive {
   background-color: #a8e205;
 }
 
+/* line 161, scss/partials/style-guide/_buttons.scss */
+.btn.square {
+  border-radius: 0px;
+}
+
 /* line 2, scss/partials/style-guide/_palette.scss */
 .darkblue {
   color: #00cfff;
