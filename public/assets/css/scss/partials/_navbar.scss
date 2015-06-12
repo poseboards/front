@@ -1,8 +1,9 @@
 nav.navbar.navbar-default {
   padding-bottom: 0;
   margin-bottom: 0;
-  border: none;
+  border: 1px solid $primarydark;
   border-radius: 0px;
+  width: 100%;
   background-color: $white;
   min-width: 500px;
 }
