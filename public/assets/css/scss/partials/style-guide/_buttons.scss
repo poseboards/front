@@ -20,6 +20,7 @@
 
 .btn:hover, .btn.hover {
   background: $primarylighthover;
+  color: $white
 }
 
 .btn.btn-sm {
@@ -45,8 +46,8 @@
 .btn.light:hover, .btn.light.hover { background-color: $primarylighthover; }
 .btn.dark { background-color: $primarydark; }
 .btn.dark:hover, .btn.dark.hover { background-color: $primarydarkhover; }
-.btn.green { background-color: $green; }
-.btn.green:hover, .btn.green.hover { background-color: $greenhover; }
+.btn.green { background-color: $green; color: $white }
+.btn.green:hover, .btn.green.hover { background-color: $greenhover;  color: $white }
 .btn.orange { background-color: $orange; }
 .btn.orange:hover, .btn.orange.hover { background-color: $orangehover; }
 .btn.red { background-color: $red; }

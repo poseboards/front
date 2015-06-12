@@ -1,6 +1,6 @@
 // FONT COLORS
-.darkblue { color: $primarydark; }
-.lightblue { color: $primarylight; }
+.darkblue { color: $bluehover; }
+.lightblue { color: $blue; }
 .gray { color: $primarygrey; }
 .green { color: $green; }
 .sggray { color: $sggray; }
@@ -11,7 +11,11 @@
 .bg-black { background-color: $black; }
 .bg-black5 { background-color: $black5; }
 .bg-black10 { background-color: $black10; }
+.bg-primarylighthover { background-color: $primarylighthover; }
 .bg-primarydark { background-color: $primarydark; }
 .bg-primarydarkhover { background-color: $primarydarkhover; }
 .bg-primarylight { background-color: $primarylight; }
+.bg-blue { background-color: $blue; }
 .bg-green { background-color: $green; }
+.bg-yellow { background-color: $yellow; }
+.bg-primarygrey { background-color: $primarygrey; }

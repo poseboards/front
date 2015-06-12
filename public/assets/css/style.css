@@ -6263,9 +6263,10 @@ button.close {
 body {
   background-color: #f8f8f8;
   font-family: "Open Sans", sans-serif;
+  color: #19376a;
 }
 
-/* line 8, scss/partials/_base.scss */
+/* line 9, scss/partials/_base.scss */
 .meta,
 p.meta,
 p.meta a {
@@ -6274,56 +6275,56 @@ p.meta a {
   line-height: 1.4em;
 }
 
-/* line 14, scss/partials/_base.scss */
+/* line 15, scss/partials/_base.scss */
 .btn-primarylight {
   background: #ee3233;
   color: white;
   height: 30px;
   width: 100px;
 }
-/* line 19, scss/partials/_base.scss */
+/* line 20, scss/partials/_base.scss */
 .btn-primarylight:hover {
   background: #19376a;
   color: white;
 }
 
-/* line 25, scss/partials/_base.scss */
+/* line 26, scss/partials/_base.scss */
 ul.list-group li {
   display: inline-block;
 }
 
-/* line 29, scss/partials/_base.scss */
+/* line 30, scss/partials/_base.scss */
 #home {
   height: 100vh;
   width: 100vw;
   background-color: #94d500;
 }
 
-/* line 35, scss/partials/_base.scss */
+/* line 36, scss/partials/_base.scss */
 .menu-item {
   cursor: pointer;
 }
 
-/* line 39, scss/partials/_base.scss */
+/* line 40, scss/partials/_base.scss */
 .slide-img {
   height: 100vh;
   width: 100vw;
 }
 
-/* line 44, scss/partials/_base.scss */
+/* line 45, scss/partials/_base.scss */
 .photo-layer {
   z-index: 1;
   position: absolute;
 }
 
-/* line 49, scss/partials/_base.scss */
+/* line 50, scss/partials/_base.scss */
 ul.cb-slideshow {
   list-style-type: none;
   margin-top: 0;
   margin-left: 0;
 }
 
-/* line 55, scss/partials/_base.scss */
+/* line 56, scss/partials/_base.scss */
 .black-layer {
   background-color: #231f20;
   opacity: 0.5;
@@ -6335,7 +6336,7 @@ ul.cb-slideshow {
   left: 0;
 }
 
-/* line 66, scss/partials/_base.scss */
+/* line 67, scss/partials/_base.scss */
 .text-layer {
   z-index: 5;
   position: absolute;
@@ -6344,12 +6345,12 @@ ul.cb-slideshow {
   text-align: center;
 }
 
-/* line 74, scss/partials/_base.scss */
+/* line 75, scss/partials/_base.scss */
 ul.authenticate li {
   display: inline-block;
 }
 
-/* line 78, scss/partials/_base.scss */
+/* line 79, scss/partials/_base.scss */
 button.unique-user {
   background: none;
   border: 2.5px solid white;
@@ -6359,29 +6360,29 @@ button.unique-user {
   margin: 0 25px 0 0;
 }
 
-/* line 87, scss/partials/_base.scss */
+/* line 88, scss/partials/_base.scss */
 button:hover {
   color: #231f20;
   background-color: white;
 }
 
-/* line 92, scss/partials/_base.scss */
+/* line 93, scss/partials/_base.scss */
 .form-control {
   border-radius: 0px;
 }
 
-/* line 96, scss/partials/_base.scss */
+/* line 97, scss/partials/_base.scss */
 .form-error {
   color: red;
 }
 
-/* line 101, scss/partials/_base.scss */
+/* line 102, scss/partials/_base.scss */
 form label {
   color: white;
   float: left;
 }
 
-/* line 106, scss/partials/_base.scss */
+/* line 107, scss/partials/_base.scss */
 .btn-submit {
   border-radius: 0px;
   height: 34px;
@@ -6389,19 +6390,19 @@ form label {
   color: #000;
 }
 
-/* line 113, scss/partials/_base.scss */
+/* line 114, scss/partials/_base.scss */
 #caretDropdown {
   border-color: transparent;
   background-color: transparent;
 }
 
-/* line 118, scss/partials/_base.scss */
+/* line 119, scss/partials/_base.scss */
 .caretAdd {
   margin-left: 10px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 127, scss/partials/_base.scss */
+  /* line 128, scss/partials/_base.scss */
   .btn-default {
     width: 100%;
   }
@@ -6639,127 +6640,130 @@ nav.navbar.navbar-default .img-responsive {
 /* line 21, scss/partials/style-guide/_buttons.scss */
 .btn:hover, .btn.hover {
   background: #901115;
+  color: white;
 }
 
-/* line 25, scss/partials/style-guide/_buttons.scss */
+/* line 26, scss/partials/style-guide/_buttons.scss */
 .btn.btn-sm, .btn-group-sm > .btn {
   font-size: 12px;
   padding: 10px 20px;
 }
 
-/* line 30, scss/partials/style-guide/_buttons.scss */
+/* line 31, scss/partials/style-guide/_buttons.scss */
 .btn.btn-lg, .btn-group-lg > .btn {
   font-size: 15px;
   padding: 12px 24px;
 }
 
-/* line 35, scss/partials/style-guide/_buttons.scss */
+/* line 36, scss/partials/style-guide/_buttons.scss */
 .btn.btn-xl {
   font-size: 17px;
   padding: 16px 28px;
 }
 
-/* line 40, scss/partials/style-guide/_buttons.scss */
+/* line 41, scss/partials/style-guide/_buttons.scss */
 .btn:hover, .btn:active, .btn:focus {
   color: white;
 }
 
-/* line 44, scss/partials/style-guide/_buttons.scss */
+/* line 45, scss/partials/style-guide/_buttons.scss */
 .btn.light {
   background-color: #ee3233;
 }
 
-/* line 45, scss/partials/style-guide/_buttons.scss */
+/* line 46, scss/partials/style-guide/_buttons.scss */
 .btn.light:hover, .btn.light.hover {
   background-color: #901115;
 }
 
-/* line 46, scss/partials/style-guide/_buttons.scss */
+/* line 47, scss/partials/style-guide/_buttons.scss */
 .btn.dark {
   background-color: #19376a;
 }
 
-/* line 47, scss/partials/style-guide/_buttons.scss */
+/* line 48, scss/partials/style-guide/_buttons.scss */
 .btn.dark:hover, .btn.dark.hover {
   background-color: #0f2140;
 }
 
-/* line 48, scss/partials/style-guide/_buttons.scss */
+/* line 49, scss/partials/style-guide/_buttons.scss */
 .btn.green {
   background-color: #94d500;
-}
-
-/* line 49, scss/partials/style-guide/_buttons.scss */
-.btn.green:hover, .btn.green.hover {
-  background-color: #a8e205;
+  color: white;
 }
 
 /* line 50, scss/partials/style-guide/_buttons.scss */
+.btn.green:hover, .btn.green.hover {
+  background-color: #a8e205;
+  color: white;
+}
+
+/* line 51, scss/partials/style-guide/_buttons.scss */
 .btn.orange {
   background-color: #ff8f12;
 }
 
-/* line 51, scss/partials/style-guide/_buttons.scss */
+/* line 52, scss/partials/style-guide/_buttons.scss */
 .btn.orange:hover, .btn.orange.hover {
   background-color: #ffa750;
 }
 
-/* line 52, scss/partials/style-guide/_buttons.scss */
+/* line 53, scss/partials/style-guide/_buttons.scss */
 .btn.red {
   background-color: #f6323e;
 }
 
-/* line 53, scss/partials/style-guide/_buttons.scss */
+/* line 54, scss/partials/style-guide/_buttons.scss */
 .btn.red:hover, .btn.red.hover {
   background-color: #fc5e6e;
 }
 
-/* line 54, scss/partials/style-guide/_buttons.scss */
+/* line 55, scss/partials/style-guide/_buttons.scss */
 .btn.lightgrey {
   background-color: #c9c8c7;
 }
 
-/* line 55, scss/partials/style-guide/_buttons.scss */
+/* line 56, scss/partials/style-guide/_buttons.scss */
 .btn.lightgrey:hover, .btn.lightgrey.hover {
   background-color: #dddddd;
 }
 
-/* line 56, scss/partials/style-guide/_buttons.scss */
+/* line 57, scss/partials/style-guide/_buttons.scss */
 .btn.darkgrey {
   background-color: #404041;
 }
 
-/* line 57, scss/partials/style-guide/_buttons.scss */
+/* line 58, scss/partials/style-guide/_buttons.scss */
 .btn.darkgrey:hover, .btn.darkgrey.hover {
   background-color: #57585b;
 }
 
-/* line 59, scss/partials/style-guide/_buttons.scss */
+/* line 60, scss/partials/style-guide/_buttons.scss */
 .btn.outline {
   background-color: transparent;
   border: 1px solid #ee3233;
   color: #ee3233;
 }
 
-/* line 65, scss/partials/style-guide/_buttons.scss */
+/* line 66, scss/partials/style-guide/_buttons.scss */
 .bg-dark .btn.outline {
   color: white;
 }
 
-/* line 69, scss/partials/style-guide/_buttons.scss */
+/* line 70, scss/partials/style-guide/_buttons.scss */
 .btn.outline:hover, .btn.outline.hover {
   border: 1px solid #901115;
   background-color: #901115;
   color: white;
 }
 
-/* line 75, scss/partials/style-guide/_buttons.scss */
+/* line 76, scss/partials/style-guide/_buttons.scss */
 .btn.disabled {
   color: #929497;
   background: #dddddd;
 }
 
-/* line 80, scss/partials/style-guide/_buttons.scss */
+/* line 81, scss/partials/style-guide/_buttons.scss */
 .btn.tag {
   border-radius: 3.571em;
   font-size: 0.857em;
@@ -6767,7 +6771,7 @@ nav.navbar.navbar-default .img-responsive {
   background: #d0d2d3;
 }
 
-/* line 87, scss/partials/style-guide/_buttons.scss */
+/* line 88, scss/partials/style-guide/_buttons.scss */
 .btn.search-tag {
   border-radius: 3.571em;
   background: white;
@@ -6778,115 +6782,115 @@ nav.navbar.navbar-default .img-responsive {
   font-size: 1em;
 }
 
-/* line 97, scss/partials/style-guide/_buttons.scss */
+/* line 98, scss/partials/style-guide/_buttons.scss */
 .btn.tag:hover {
   background: #e6e7e8;
 }
 
-/* line 101, scss/partials/style-guide/_buttons.scss */
+/* line 102, scss/partials/style-guide/_buttons.scss */
 .btn.ctrl {
   padding: 10px 10px 9px 10px;
   min-width: 35px;
 }
 
-/* line 106, scss/partials/style-guide/_buttons.scss */
+/* line 107, scss/partials/style-guide/_buttons.scss */
 .btn.social {
   padding: 6px 6px 5px 6px;
   min-width: 34px;
   font-size: 1.36em;
 }
 
-/* line 113, scss/partials/style-guide/_buttons.scss */
+/* line 114, scss/partials/style-guide/_buttons.scss */
 .btn-group button:first-child, .btn-group button:first-child:hover {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-/* line 117, scss/partials/style-guide/_buttons.scss */
+/* line 118, scss/partials/style-guide/_buttons.scss */
 .btn-group button:last-child, .btn-group button:last-child:hover {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
-/* line 121, scss/partials/style-guide/_buttons.scss */
+/* line 122, scss/partials/style-guide/_buttons.scss */
 .btn-group button {
   margin: 0;
 }
 
-/* line 127, scss/partials/style-guide/_buttons.scss */
+/* line 128, scss/partials/style-guide/_buttons.scss */
 .bg-dark .btn-group button:first-child, .bg-dark .btn-group button:first-child:hover {
   border-right: 0px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-/* line 132, scss/partials/style-guide/_buttons.scss */
+/* line 133, scss/partials/style-guide/_buttons.scss */
 .bg-dark .btn-group button:last-child, .bg-dark .btn-group button:last-child:hover {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-/* line 138, scss/partials/style-guide/_buttons.scss */
+/* line 139, scss/partials/style-guide/_buttons.scss */
 .btn.facebook {
   background: #4b66a3;
 }
 
-/* line 139, scss/partials/style-guide/_buttons.scss */
+/* line 140, scss/partials/style-guide/_buttons.scss */
 .btn.facebook:hover, .btn.facebook.hover {
   background: #8194bf;
 }
 
-/* line 140, scss/partials/style-guide/_buttons.scss */
+/* line 141, scss/partials/style-guide/_buttons.scss */
 .btn.gplus {
   background: #dd4a39;
 }
 
-/* line 141, scss/partials/style-guide/_buttons.scss */
+/* line 142, scss/partials/style-guide/_buttons.scss */
 .btn.gplus:hover, .btn.gplus.hover {
   background: #e78175;
 }
 
-/* line 142, scss/partials/style-guide/_buttons.scss */
+/* line 143, scss/partials/style-guide/_buttons.scss */
 .btn.pinterest {
   background: #ca1f25;
 }
 
-/* line 143, scss/partials/style-guide/_buttons.scss */
+/* line 144, scss/partials/style-guide/_buttons.scss */
 .btn.pinterest:hover, .btn.pinterest.hover {
   background: #da6367;
 }
 
-/* line 144, scss/partials/style-guide/_buttons.scss */
+/* line 145, scss/partials/style-guide/_buttons.scss */
 .btn.twitter {
   background: #2dc2ee;
 }
 
-/* line 145, scss/partials/style-guide/_buttons.scss */
+/* line 146, scss/partials/style-guide/_buttons.scss */
 .btn.twitter:hover, .btn.twitter.hover {
   background: #6cd4f3;
 }
 
-/* line 147, scss/partials/style-guide/_buttons.scss */
+/* line 148, scss/partials/style-guide/_buttons.scss */
 .btn-block {
   display: block;
   width: 100%;
 }
 
-/* line 152, scss/partials/style-guide/_buttons.scss */
+/* line 153, scss/partials/style-guide/_buttons.scss */
 .btn-success {
   background-color: #94d500;
   border: 0px;
 }
-/* line 155, scss/partials/style-guide/_buttons.scss */
+/* line 156, scss/partials/style-guide/_buttons.scss */
 .btn-success:hover {
   background-color: #a8e205;
 }
 
 /* line 2, scss/partials/style-guide/_palette.scss */
 .darkblue {
-  color: #19376a;
+  color: #00cfff;
 }
 
 /* line 3, scss/partials/style-guide/_palette.scss */
 .lightblue {
-  color: #ee3233;
+  color: #00b2e2;
 }
 
 /* line 4, scss/partials/style-guide/_palette.scss */
@@ -6925,23 +6929,43 @@ nav.navbar.navbar-default .img-responsive {
 }
 
 /* line 14, scss/partials/style-guide/_palette.scss */
+.bg-primarylighthover {
+  background-color: #901115;
+}
+
+/* line 15, scss/partials/style-guide/_palette.scss */
 .bg-primarydark {
   background-color: #19376a;
 }
 
-/* line 15, scss/partials/style-guide/_palette.scss */
+/* line 16, scss/partials/style-guide/_palette.scss */
 .bg-primarydarkhover {
   background-color: #0f2140;
 }
 
-/* line 16, scss/partials/style-guide/_palette.scss */
+/* line 17, scss/partials/style-guide/_palette.scss */
 .bg-primarylight {
   background-color: #ee3233;
 }
 
-/* line 17, scss/partials/style-guide/_palette.scss */
+/* line 18, scss/partials/style-guide/_palette.scss */
 .bg-green {
   background-color: #94d500;
+}
+
+/* line 19, scss/partials/style-guide/_palette.scss */
+.bg-yellow {
+  background-color: #fffe59;
+}
+
+/* line 20, scss/partials/style-guide/_palette.scss */
+.bg-blue {
+  background-color: #00b2e2;
+}
+
+/* line 21, scss/partials/style-guide/_palette.scss */
+.bg-primarygrey {
+  background-color: #c9c8c7;
 }
 
 /* line 4, scss/partials/style-guide/_fonts.scss */
