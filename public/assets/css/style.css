@@ -688,7 +688,7 @@ form label {
 }
 
 /* line 1, scss/partials/_header.scss */
-.pb-nav-header {
+.pb-header-text {
   font-size: 18px;
   color: #19376a;
   padding-top: 10px;
