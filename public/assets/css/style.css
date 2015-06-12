@@ -688,7 +688,7 @@ form label {
 }
 
 /* line 1, scss/partials/_header.scss */
-.pb-nav-header {
+.pb-header-text {
   font-size: 18px;
   color: #19376a;
   padding-top: 10px;
@@ -1022,6 +1022,11 @@ nav.navbar.navbar-default .img-responsive {
 /* line 156, scss/partials/style-guide/_buttons.scss */
 .btn-success:hover {
   background-color: #a8e205;
+}
+
+/* line 161, scss/partials/style-guide/_buttons.scss */
+.btn.square {
+  border-radius: 0px;
 }
 
 /* line 2, scss/partials/style-guide/_palette.scss */
