@@ -706,9 +706,9 @@ nav.navbar.navbar-default {
   border: none;
   border-radius: 0px;
   background-color: white;
-  float: none;
   display: block;
-  text-align: center;
+  float: none;
+  min-width: 500px;
 }
 
 /* line 1, scss/partials/_users.scss */
