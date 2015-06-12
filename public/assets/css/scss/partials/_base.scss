@@ -5,10 +5,12 @@ body {
 }
 
 .sg-section {
+  margin-top: 15px;
+  margin-bottom: 15px;
   text-align: left;
   color: $primarygrey;
-  border-top: 1px solid $primarygrey;
-  border-bottom: 1px solid $primarygrey;
+  border-top: 2px solid $primarygreylight;
+  border-bottom: 2px solid $primarygreylight;
 }
 
 
