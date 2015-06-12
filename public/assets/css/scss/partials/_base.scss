@@ -4,6 +4,35 @@ body {
   color: $primarydark;
 }
 
+.sg-section {
+  text-align: left;
+  color: $primarygrey;
+  border-top: 1px solid $primarygrey;
+  border-bottom: 1px solid $primarygrey;
+}
+
+
+.entry-content {
+  padding-left: 15%;
+  padding-right: 15%;
+  .section-header {
+    text-align: center;
+    font-family: $primarysans;
+    font-color: $primarydark;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .subhead {
+    text-align: center;
+    font-family: $primaryserif;
+    font-color: $black50;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.4em;  
+  }
+}
+
 .meta,
 p.meta,
 p.meta a {
