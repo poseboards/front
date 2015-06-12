@@ -3,6 +3,25 @@ body {
   font-family: $primarysans;
 }
 
+.meta,
+p.meta,
+p.meta a {
+  font-family: $primaryserif;
+  color: $primarygrey;
+  line-height: 1.4em;
+}
+
+.btn-primarylight {
+  background: $primarylight;
+  color: $white;
+  height: 30px;
+  width: 100px;
+  &:hover {
+    background: $primarydark;
+    color: $white;
+  }
+}
+
 ul.list-group li {
   display: inline-block;
 }

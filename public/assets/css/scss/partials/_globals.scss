@@ -34,22 +34,3 @@ $dashboardlightgrey: #f8f8f8;
 $dashboardmedgrey: #bbbdbf;
 $dashboarddarkgrey: #6c6d6f;
 $white: #fff;
-
-.meta,
-p.meta,
-p.meta a {
-  font-family: $primaryserif;
-  color: $primarygrey;
-  line-height: 1.4em;
-}
-
-.btn-primarylight {
-	background: $primarylight;
-	color: $white;
-	height: 30px;
-	width: 100px;
-	&:hover {
-		background: $primarydark;
-		color: $white;
-	}
-}

@@ -1,0 +1,158 @@
+.btn {
+  color: $white;
+  border-radius: 5px;
+  font-family: $primarysans;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding: 10px 20px;
+  line-height: 1;
+  -webkit-transition: all 0.3 ease;
+  -moz-transition: all 0.3 ease;
+  -o-transition: all 0.3 ease;
+  -ms-transition: all 0.3 ease;
+  transition: all 0.3s ease;
+  background: $primarylight;
+  &.flatBottom {
+    border-radius:5px 5px 0px 0px;
+  }
+}
+
+.btn:hover, .btn.hover {
+  background: $primarylighthover;
+}
+
+.btn.btn-sm {
+  font-size: 12px;
+  padding: 10px 20px;
+}
+
+.btn.btn-lg {
+  font-size: 15px;
+  padding: 12px 24px;
+}
+
+.btn.btn-xl {
+  font-size: 17px;
+  padding: 16px 28px;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+  color: $white;
+}
+
+.btn.light { background-color: $primarylight; }
+.btn.light:hover, .btn.light.hover { background-color: $primarylighthover; }
+.btn.dark { background-color: $primarydark; }
+.btn.dark:hover, .btn.dark.hover { background-color: $primarydarkhover; }
+.btn.green { background-color: $green; }
+.btn.green:hover, .btn.green.hover { background-color: $greenhover; }
+.btn.orange { background-color: $orange; }
+.btn.orange:hover, .btn.orange.hover { background-color: $orangehover; }
+.btn.red { background-color: $red; }
+.btn.red:hover, .btn.red.hover { background-color: $redhover; }
+.btn.lightgray { background-color: $primarygray; }
+.btn.lightgray:hover, .btn.lightgray.hover { background-color: $primarygrayhover; }
+.btn.darkgray { background-color: $black90; }
+.btn.darkgray:hover, .btn.darkgray.hover { background-color: #57585b; }
+
+.btn.outline {
+  background-color: transparent;
+  border: 1px solid $primarylight;
+  color: $primarylight;
+}
+
+.bg-dark .btn.outline {
+  color: $white;
+}
+
+.btn.outline:hover, .btn.outline.hover {
+  border: 1px solid $primarylighthover;
+  background-color: $primarylighthover;
+  color: $white;
+}
+
+.btn.disabled {
+  color: $black50;
+  background: $primarygrayhover;
+}
+
+.btn.tag {
+  border-radius: 3.571em;
+  font-size: 0.857em;
+  padding: 0.643em 0.714em 0.500em;
+  background: $black20;
+}
+
+.btn.search-tag {
+  border-radius: 3.571em;
+  background: $white;
+  padding: 4px 10px;
+  color: $primarylight;
+  font-weight: bold;
+  letter-spacing: 0px;
+  font-size: 1em;
+}
+
+.btn.tag:hover {
+  background: $black10;
+}
+
+.btn.ctrl {
+  padding: 10px 10px 9px 10px;
+  min-width: 35px;
+}
+
+.btn.social {
+  padding: 6px 6px 5px 6px;
+  min-width: 34px;
+  font-size: 1.36em;
+}
+
+.btn-group {
+  button:first-child, button:first-child:hover {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  button:last-child, button:last-child:hover {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  button {
+    margin: 0;
+  }
+}
+
+.bg-dark .btn-group {
+  button:first-child, button:first-child:hover {
+    border-right: 0px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  button:last-child, button:last-child:hover {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+
+.btn.facebook { background: #4b66a3; }
+.btn.facebook:hover, .btn.facebook.hover { background: #8194bf; }
+.btn.gplus { background: #dd4a39; }
+.btn.gplus:hover, .btn.gplus.hover { background: #e78175; }
+.btn.pinterest { background: #ca1f25; }
+.btn.pinterest:hover, .btn.pinterest.hover { background: #da6367; }
+.btn.twitter { background: #2dc2ee; }
+.btn.twitter:hover, .btn.twitter.hover { background: #6cd4f3; }
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-success {
+  background-color: $green;
+  border: 0px;
+  &:hover {
+    background-color: $greenhover;
+  }
+}
