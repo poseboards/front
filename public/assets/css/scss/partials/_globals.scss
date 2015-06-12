@@ -9,11 +9,19 @@ $primaryserif: 'PT Sans Narrow', sans-serif;
 ========================= */
 
 // PRIMARY COLOR
-$primarylight: #00b2e2;
-$primarylighthover: #00cfff;
 
-$primarydark: #CC181E;
-$primarydarkhover: #901115;
+$primarylight: #EE3233;
+$primarylighthover: #901115;
+
+$primarydark: #19376A;
+$primarydarkhover: #0F2140;
+
+
+// SECONDARY COLOR
+$secondarylight: #00b2e2;
+$secondarylighthover: #00cfff;
+$secondarydark: #000063;
+$secondarydarkhover: #000035;
 
 // PRIMARY GREYS
 $primarygrey: #c9c8c7;
@@ -30,7 +38,7 @@ $secondarygreydark: #6c6d6f;
 $sggray: #a6a8ab;
 
 // LIGHT => DARK
-$white: #fffff;
+$white: #ffffff;
 $black5: #f1f1f2;
 $black10: #e6e7e8;
 $black20: #d0d2d3;
@@ -50,7 +58,7 @@ $green: #94d500;
 $greenhover: #a8e205;
 
 $yellow: #FFFE59;
-$yellowhover #D2D149;
+$yellowhover: #D2D149;
 
 $orange: #ff8f12;
 $orangehover: #ffa750;

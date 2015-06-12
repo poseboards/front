@@ -1,5 +1,5 @@
 body {
-  background-color: lightgrey;
+  background-color: $primarygreylight;
   font-family: $primarysans;
 }
 
@@ -29,7 +29,7 @@ ul.list-group li {
 #home {
   height: 100vh;
   width: 100vw;
-  background-color: $mint;
+  background-color: $green;
 }
 
 .menu-item {
@@ -78,7 +78,7 @@ ul.authenticate li {
 button.unique-user {
   background: none;
   border: 2.5px solid white;
-  color: white;
+  color: $white;
   width: 100px;
   height: 42px;
   margin: 0 25px 0 0;
@@ -106,7 +106,7 @@ form label {
 .btn-submit {
   border-radius: 0px;
   height: 34px;
-  background-color: $mint;
+  background-color: $green;
   color: #000;
 }
 
