@@ -687,6 +687,18 @@ form label {
   height: 50px;
 }
 
+/* line 1, scss/partials/_header.scss */
+.pb-nav-header {
+  font-size: 18px;
+  color: #19376a;
+  padding-top: 10px;
+}
+
+/* line 7, scss/partials/_header.scss */
+.pb-header-btns {
+  padding: 10px;
+}
+
 /* line 1, scss/partials/_navbar.scss */
 nav.navbar.navbar-default {
   padding-bottom: 0;
