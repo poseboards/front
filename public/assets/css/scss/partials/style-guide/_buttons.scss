@@ -51,10 +51,10 @@
 .btn.orange:hover, .btn.orange.hover { background-color: $orangehover; }
 .btn.red { background-color: $red; }
 .btn.red:hover, .btn.red.hover { background-color: $redhover; }
-.btn.lightgray { background-color: $primarygray; }
-.btn.lightgray:hover, .btn.lightgray.hover { background-color: $primarygrayhover; }
-.btn.darkgray { background-color: $black90; }
-.btn.darkgray:hover, .btn.darkgray.hover { background-color: #57585b; }
+.btn.lightgrey { background-color: $primarygrey; }
+.btn.lightgrey:hover, .btn.lightgrey.hover { background-color: $primarygreyhover; }
+.btn.darkgrey { background-color: $black90; }
+.btn.darkgrey:hover, .btn.darkgrey.hover { background-color: #57585b; }
 
 .btn.outline {
   background-color: transparent;
@@ -74,7 +74,7 @@
 
 .btn.disabled {
   color: $black50;
-  background: $primarygrayhover;
+  background: $primarygreyhover;
 }
 
 .btn.tag {

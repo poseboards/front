@@ -1,0 +1,122 @@
+
+.palettes li {
+  text-align: center;
+}
+
+.palettes .palette {
+  padding: 40px 2px;
+  color: #fff;
+  font-family: $primarysans;
+  text-align: center;
+}
+
+.palettes li h5 {
+  color: $sggray;
+  margin: 16px 0;
+  padding: 0;
+  font-family: $primarysans;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+h6.sub-head code {
+  text-transform: none;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+small code { font-size: 55%; }
+
+.hover-states div.col-lg-6.col-md-6 {
+  padding-right: 0px !important;
+}
+
+.hover-states div.col-lg-6.col-md-6:nth-child(2n) {
+  padding-left: 0px !important;
+}
+
+hr {
+  background: #7096a6;
+  border: 0px;
+  margin: 20px 0;
+  padding: 0;
+  width: 100%;
+  height: 1px;
+  @media (min-width: 768px) {
+    margin: 40px 0;
+  }
+}
+
+.buttons {
+  h5 {
+    color: $sggray;
+    margin: 16px 0;
+    padding: 0;
+    font-family: $primarysans;
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+.buttons.button-options li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.grid{
+  div[class*="col-"] div.content{
+    background-color:$sggray;
+    padding:1em;
+    border:solid 1px $black;
+  }
+}
+
+p {
+  font-size: 1.14em;
+  line-height: 1.44em;
+}
+
+p.lead {
+  font-size: 24px;
+  font-family: $primarysans;
+}
+
+p.intro {
+  font-size: 1.4em;
+  line-height: 1.3em;
+}
+
+p.meta {
+  font-family: $primarysans;
+  font-size: 1em;
+}
+
+p.caption {
+  font-family: $primarysans;
+  font-size: 0.95em;
+}
+
+p.disclaimer {
+  font-family: $primarysans;
+  font-size: 0.875em;
+}
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+}
+
+a {
+  color: $primarylight;
+  @include transition(all, 0.3s);
+}
+
+a:hover, a:focus {
+  color: $primarylighthover;
+  text-decoration: none;
+}
