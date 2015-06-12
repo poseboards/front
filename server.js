@@ -3,6 +3,7 @@ var logger  = require('morgan');
 var hbs     = require('./config/handlebars');
 var usersRouter = require('./routes/users-router');
 var animationsRouter = require('./routes/animations-router');
+var devRouter = require('./routes/dev-router');
 
 var root = __dirname + '/public';
 var lib = __dirname + '/lib';
@@ -13,7 +14,7 @@ var app = express();
 
 app.use('/users', usersRouter);
 app.use('/animations', animationsRouter);
-
+app.use('/dev', devRouter);
 
 app.set('view engine', 'hbs');
 app.set('views', 'views');
