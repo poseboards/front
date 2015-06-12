@@ -1,39 +1,56 @@
+/* ========================
+                      FONTS
+========================= */
 $primarysans: 'Open Sans', sans-serif;
 $primaryserif: 'PT Sans Narrow', sans-serif;
-$primarydark: #15365d;
-$primarydarkhover: #174e7a;
+
+/* ========================
+                     COLORS
+========================= */
+
+// PRIMARY COLOR
 $primarylight: #00b2e2;
 $primarylighthover: #00cfff;
 
+$primarydark: #CC181E;
+$primarydarkhover: #901115;
+
+// PRIMARY GREYS
 $primarygrey: #c9c8c7;
 $primarygreyhover: #dddddd;
+
 $primarygreylight: #f8f8f8;
 $primarygreymed: #bbbdbf;
 $primarygreydark: #6c6d6f;
 
-$mint: #99FFCC;
-$pink: #FFC0CB;
-$ashblue: #336699;
+// SECONDARY GREYS
+$secondarygreylight: #f8f8f8;
+$secondarygreymed: #bbbdbf;
+$secondarygreydark: #6c6d6f;
+$sggray: #a6a8ab;
 
-$green: #94d500;
-$greenhover: #a8e205;
-$orange: #ff8f12;
-$orangehover: #ffa750;
+// LIGHT => DARK
+$white: #fffff;
+$black5: #f1f1f2;
+$black10: #e6e7e8;
+$black20: #d0d2d3;
+$black50: #929497;
+$black70: #6d6e71;
+$black90: #404041;
+$black: #231f20;
+
+// COLORS
 $red: #f6323e;
 $redhover: #fc5e6e;
 
-$black: #231f20;
-$black90: #404041;
-$black70: #6d6e71;
-$black50: #929497;
-$black20: #d0d2d3;
-$black10: #e6e7e8;
-$black5: #f1f1f2;
+$blue: #00b2e2;
+$bluehover: #00cfff;
 
-$dashboardlightgrey: #f8f8f8;
-$dashboardmedgrey: #bbbdbf;
-$dashboarddarkgrey: #6c6d6f;
-$white: #fff;
+$green: #94d500;
+$greenhover: #a8e205;
 
-$sggray: #a6a8ab;
-.sggray { color: $sggray; }
+$yellow: #FFFE59;
+$yellowhover #D2D149;
+
+$orange: #ff8f12;
+$orangehover: #ffa750;
