@@ -120,3 +120,71 @@ a:hover, a:focus {
   color: $primarylighthover;
   text-decoration: none;
 }
+
+.sub-head {
+  color: $sggray;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: $primarysans;
+  margin: 20px 0;
+}
+
+.bg-dark .sub-head, .bg-gray .sub-head {
+  color: $primarylight;
+}
+
+
+.high{
+  height: 100%;
+}
+
+p {
+  font-size: 1.14em;
+  line-height: 1.44em;
+}
+
+p.lead {
+  font-size: 24px;
+  font-family: $primarysans;
+}
+
+p.intro {
+  font-size: 1.4em;
+  line-height: 1.3em;
+}
+
+p.meta {
+  font-family: $primarysans;
+  font-size: 1em;
+}
+
+p.caption {
+  font-family: $primarysans;
+  font-size: 0.95em;
+}
+
+p.disclaimer {
+  font-family: $primarysans;
+  font-size: 0.875em;
+}
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+}
+/* BFS LINKS */
+
+a {
+  color: $primarylight;
+  @include transition(all, 0.3s);
+}
+
+a:hover, a:focus {
+  color: $primarylighthover;
+  text-decoration: none;
+}

@@ -1284,3 +1284,84 @@ a:hover, a:focus {
   color: #901115;
   text-decoration: none;
 }
+
+/* line 124, scss/partials/style-guide/_formatting.scss */
+.sub-head {
+  color: #a6a8ab;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  margin: 20px 0;
+}
+
+/* line 134, scss/partials/style-guide/_formatting.scss */
+.bg-dark .sub-head, .bg-gray .sub-head {
+  color: #ee3233;
+}
+
+/* line 139, scss/partials/style-guide/_formatting.scss */
+.high {
+  height: 100%;
+}
+
+/* line 143, scss/partials/style-guide/_formatting.scss */
+p {
+  font-size: 1.14em;
+  line-height: 1.44em;
+}
+
+/* line 148, scss/partials/style-guide/_formatting.scss */
+p.lead {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 153, scss/partials/style-guide/_formatting.scss */
+p.intro {
+  font-size: 1.4em;
+  line-height: 1.3em;
+}
+
+/* line 158, scss/partials/style-guide/_formatting.scss */
+p.meta {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+/* line 163, scss/partials/style-guide/_formatting.scss */
+p.caption {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.95em;
+}
+
+/* line 168, scss/partials/style-guide/_formatting.scss */
+p.disclaimer {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875em;
+}
+
+/* line 173, scss/partials/style-guide/_formatting.scss */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+}
+
+/* BFS LINKS */
+/* line 182, scss/partials/style-guide/_formatting.scss */
+a {
+  color: #ee3233;
+  -webkit-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+/* line 187, scss/partials/style-guide/_formatting.scss */
+a:hover, a:focus {
+  color: #901115;
+  text-decoration: none;
+}
